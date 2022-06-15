@@ -36,6 +36,19 @@ app.post('/api/notes', (req, res) => {
     });
 })
 
+// Delete notes
+app.delete('/api/notes/:id', (req, res) => {
+    console.log(req.params.id);
+    var updatedDb = db.filter((note) => {
+        return note.id !== req.params.id;
+    });
+    db = updatedDb;
+    console.log(updatedDb);
+    fs.writeFile('./db/db.json',JSON.stringify(updatedDb),() => {
+        res.json(updatedDb);
+    });
+})
+
 // port
 app.listen(3001, () => {
     console.log('server is running');
