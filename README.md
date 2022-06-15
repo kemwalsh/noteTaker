@@ -67,8 +67,8 @@ SO THAT I can organize my thoughts and keep track of tasks I need to complete
 
 Website's Appearance:
 
-https://drive.google.com/file/d/1LPxT8j8D7z93C9NrD-cBZEyeQikHFizx/view
-<!-- ![Appearance](Assets/gif/codeybuddy.gif) -->
+![Appearance](public/assets/images/nt1.png)
+![Appearance](public/assets/images/nt2.png)
 
 ### Built With
 
@@ -76,12 +76,14 @@ https://drive.google.com/file/d/1LPxT8j8D7z93C9NrD-cBZEyeQikHFizx/view
 - [CSS](https://www.css)
 - [NodeJS](https://nodejs.org/en/)
 - [ExpressJS](https://expressjs.)
+- [Heroku](https://www.heroku.com)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Project Link
 
-[Portfolio Repository](https://github.com/kemwalsh/noteTaker)
+<!-- [Portfolio Repository](https://github.com/kemwalsh/noteTaker) -->
+[Heroku Deployed](https://note-taker-kewalsh.herokuapp.com/)
 
 ## Credits
 
