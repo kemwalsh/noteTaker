@@ -5,63 +5,61 @@
 [![Stargazers][stars-shield]][stars-url]
 [![GitHub Watchers][github-watchers]][github-watchers-url]
 
-# Readme-Generator
+# Note Taker
 
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://kemwalsh.github.io/Readme-Generator/">
+  <a href="https://kemwalsh.github.io/noteTaker/">
   </a>
 
-<h3 align="center">Readme-Generator</h3>
+<h3 align="center">Note Taker</h3>
 
   <p align="center">
     <!-- TEXT -->
     <br />
-    <a href="https://github.com/kemwalsh/Readme-Generator"><strong>Explore the Docs »</strong></a>
+    <a href="https://github.com/kemwalsh/noteTaker"><strong>Explore the Docs »</strong></a>
     <br />
     <br />
-    <!-- <a href="https://kemwalsh.github.io/Readme-Generator/">View Demo</a> -->
+    <!-- <a href="https://kemwalsh.github.io/noteTaker/">View Demo</a> -->
     ·
-    <a href="https://github.com/kemwalsh/Readme-Generator/issues">Report Bug</a>
+    <a href="https://github.com/kemwalsh/noteTaker/issues">Report Bug</a>
     ·
-    <a href="https://github.com/kemwalsh/Readme-Generator/issues">Request Feature</a>
+    <a href="https://github.com/kemwalsh/noteTaker/issues">Request Feature</a>
   </p>
 </div>
 
 ## Description:
 
-```md
-GIVEN a command-line application that accepts user input
-WHEN I am prompted for information about my application repository
-THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
-WHEN I enter my project title
-THEN this is displayed as the title of the README
-WHEN I enter a description, installation instructions, usage information, contribution guidelines, and test instructions
-THEN this information is added to the sections of the README entitled Description, Installation, Usage, Contributing, and Tests
-WHEN I choose a license for my application from a list of options
-THEN a badge for that license is added near the top of the README and a notice is added to the section of the README entitled License that explains which license the application is covered under
-WHEN I enter my GitHub username
-THEN this is added to the section of the README entitled Questions, with a link to my GitHub profile
-WHEN I enter my email address
-THEN this is added to the section of the README entitled Questions, with instructions on how to reach me with additional questions
-WHEN I click on the links in the Table of Contents
-THEN I am taken to the corresponding section of the README
+```
+GIVEN a note-taking application
+WHEN I open the Note Taker
+THEN I am presented with a landing page with a link to a notes page
+WHEN I click on the link to the notes page
+THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
+WHEN I enter a new note title and the note’s text
+THEN a Save icon appears in the navigation at the top of the page
+WHEN I click on the Save icon
+THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes
+WHEN I click on an existing note in the list in the left-hand column
+THEN that note appears in the right-hand column
+WHEN I click on the Write icon in the navigation at the top of the page
+THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column
 ```
 
 ## User Story
 
-```md
-AS A developer
-I WANT a README generator
-SO THAT I can quickly create a professional README for a new project
+```
+AS A small business owner
+I WANT to be able to write and save notes
+SO THAT I can organize my thoughts and keep track of tasks I need to complete
 ```
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Application Features:
 
-- Generate readme.md file from node terminal
+- Allow employer to add and delete notes
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
@@ -75,12 +73,15 @@ https://drive.google.com/file/d/1LPxT8j8D7z93C9NrD-cBZEyeQikHFizx/view
 ### Built With
 
 - [Javascript](https://www.javascript.com)
+- [CSS](https://www.css)
+- [NodeJS](https://nodejs.org/en/)
+- [ExpressJS](https://expressjs.)
 
 <p align="right">(<a href="#top">back to top</a>)</p>
 
 ## Project Link
 
-[Portfolio Repository](https://github.com/kemwalsh/Readme-Generator)
+[Portfolio Repository](https://github.com/kemwalsh/noteTaker)
 
 ## Credits
 
@@ -97,19 +98,19 @@ Kelly Walsh - kellywalsh827@gmail.com [![LinkedIn][linkedin-shield]][linkedin-ur
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/kemwalsh/Readme-Generator.svg?style=for-the-badge
-[contributors-url]: https://github.com/kemwalsh/Readme-Generator/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/kemwalsh/Readme-Generator.svg?style=for-the-badge
-[forks-url]: https://github.com/kemwalsh/Readme-Generator/network/members
-[stars-shield]: https://img.shields.io/github/stars/kemwalsh/Readme-Generator?style=social
-[stars-url]: https://github.com/kemwalsh/Readme-Generator/stargazers
-[issues-shield]: https://img.shields.io/github/issues/kemwalsh/Readme-Generator.svg?style=for-the-badge
-[issues-url]: https://github.com/kemwalsh/Readme-Generator/issues
-[license-shield]: https://img.shields.io/github/license/kemwalsh/Readme-Generator.svg?style=for-the-badge
-[license-url]: https://github.com/kemwalsh/Readme-Generator/blob/master/LICENSE.txt
+[contributors-shield]: https://img.shields.io/github/contributors/kemwalsh/noteTaker.svg?style=for-the-badge
+[contributors-url]: https://github.com/kemwalsh/noteTaker/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/kemwalsh/noteTaker.svg?style=for-the-badge
+[forks-url]: https://github.com/kemwalsh/noteTaker/network/members
+[stars-shield]: https://img.shields.io/github/stars/kemwalsh/noteTaker?style=social
+[stars-url]: https://github.com/kemwalsh/noteTaker/stargazers
+[issues-shield]: https://img.shields.io/github/issues/kemwalsh/noteTaker.svg?style=for-the-badge
+[issues-url]: https://github.com/kemwalsh/noteTaker/issues
+[license-shield]: https://img.shields.io/github/license/kemwalsh/noteTaker.svg?style=for-the-badge
+[license-url]: https://github.com/kemwalsh/noteTaker/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url-kelly]: https://www.linkedin.com/in/kellywalsh001/
 [github-shield]: https://img.shields.io/badge/-Github-blueviolet.svg?style=for-the-badge&logo=Github&colorB=555
 [github-url-kelly]: https://github.com/kemwalsh
-[github-watchers]: https://img.shields.io/github/watchers/kemwalsh/Readme-Generator?style=social
-[github-watchers-url]: https://github.com/kemwalsh/Readme-Generator/watchers
+[github-watchers]: https://img.shields.io/github/watchers/kemwalsh/noteTaker?style=social
+[github-watchers-url]: https://github.com/kemwalsh/noteTaker/watchers
